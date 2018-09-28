@@ -8,15 +8,15 @@ Compile and run the server
 
 Compile and run the client
    * make
-   * ./client <server ip address> <portno>
+   * ./client "server ip" "portno"
 
 The client will display a set of commands and prompt for input as shown below.
     Please enter your commands in the format shown below
-    -1. get [filename]
-    -2. put [filename]
-    -3. delete [filename]
-    -4. ls
-    -5. exit
+    1. get [filename]
+    2. put [filename]
+    3. delete [filename]
+    4. ls
+    5. exit
 
 The client then receives the command and sends it to the server. 
 Functions corresponding to the command get triggered both on the client and the server side.
