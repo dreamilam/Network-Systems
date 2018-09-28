@@ -23,13 +23,13 @@ Functions corresponding to the command get triggered both on the client and the 
 
 ## Reliability
 For reliable file transfer, a structure which holds the following is used,
-    1. packet no
-    2. packet size
-    3. buffer data
-The sender keeps sending a packet till the receiver receives it and sends the same packet no back.
-The receiver writes the data only when it receives the expected packet no and packet size. 
-The receiver sends the updated packet no if the write is successful.
-The sender then sends the next packet.
+   1. packet no
+   2. packet size
+   3. buffer data
+The sender keeps sending a packet till the receiver receives it and sends the same packet no back.<br/>
+The receiver writes the data only when it receives the expected packet no and packet size.<br/> 
+The receiver sends the updated packet no if the write is successful.<br/>
+The sender then sends the next packet.<br/>
 File transfer ends when the sender sends a packet of packet_size -1.
 
 ## get
