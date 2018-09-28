@@ -1,6 +1,7 @@
 # UDP file server 
-This folder contains the client and server code for reliable file transfer using UDP.
+This folder contains the code for a basic implementation of a UDP based file server. A simple mechanism is implemented to achieve a certain packet level reliability. 
 
+## Reliability
 Compile and run the server
     make
     ./server <portno>
@@ -25,7 +26,7 @@ For reliable file transfer, a structure which holds the following is used,
     1. packet no
     2. packet size
     3. buffer data
-The sender keeps sending a packet till the receiver receives it and sends the same packet no.
+The sender keeps sending a packet till the receiver receives it and sends the same packet no back.
 The receiver writes the data only when it receives the expected packet no and packet size. 
 The receiver sends the updated packet no if the write is successful.
 The sender then sends the next packet.
