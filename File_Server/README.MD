@@ -2,8 +2,8 @@
 This folder contains the code for a basic implementation of a UDP based file server. A simple mechanism is implemented to achieve a certain packet level reliability. 
 
 ## Compilation
-Compile and run the server
-make
+Compile and run the server<br/>
+make<br/>
 ./server <portno>
 
 Compile and run the client
