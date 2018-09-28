@@ -3,12 +3,12 @@ This folder contains the code for a basic implementation of a UDP based file ser
 
 ## Compilation
 Compile and run the server
-    make
-    ./server <portno>
+    * make
+    * ./server <portno>
 
 Compile and run the client
-    make
-    ./client <server ip address> <portno>
+    * make
+    * ./client <server ip address> <portno>
 
 The client will display a set of commands and prompt for input as shown below.
     Please enter your commands in the format shown below
