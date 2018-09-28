@@ -1,5 +1,5 @@
 # UDP file server 
-This folder contains the code for a basic implementation of a UDP based file server. A simple mechanism is implemented to achieve a certain packet level reliability. 
+This folder contains the code for a basic implementation of a UDP based file server using unix sockets. A simple mechanism is implemented to achieve a certain packet level reliability. 
 
 ## Compilation
 Compile and run the server
