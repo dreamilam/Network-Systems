@@ -6,17 +6,17 @@ Compile and run the server<br/>
 make<br/>
 ./server <portno>
 
-Compile and run the client
-make
+Compile and run the client<br/>
+make<br/>
 ./client <server ip> <portno>
 
-The client will display a set of commands and prompt for input as shown below.
-    Please enter your commands in the format shown below
-    1. get [filename]
-    2. put [filename]
-    3. delete [filename]
-    4. ls
-    5. exit
+The client will display a set of commands and prompt for input as shown below.<br/>
+    Please enter your commands in the format shown below<br/>
+    1. get [filename]<br/>
+    2. put [filename]<br/>
+    3. delete [filename]<br/>
+    4. lsv<br/>
+    5. exit<br/>
 
 The client then receives the command and sends it to the server. 
 Functions corresponding to the command get triggered both on the client and the server side.
