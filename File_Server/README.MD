@@ -29,37 +29,37 @@ The receiver sends the updated packet no if the write is successful.
 The sender then sends the next packet.
 File transfer ends when the sender sends a packet of packet_size -1.
 
-get:
+# get:
 1. Client receives the command and sends it to the server and keeps waiting for response.
 2. server checks if the file is present and sends the response.
 3. If the file is present, file transfer takes place.
 
-put:
+# put:
 1. client receives the command and sends it to the server.
 2. The server keeps waiting for response.
 2. client checks if the file is present and sends the response to the server.
 3. If the file is present, file transder takes place.
 
-delete:
+# delete:
 1. client receives the command and sends it to the server.
 2. server checks if the file is present and sends the response.
 3. If the file is present, the server deletes it and sends success status.
 
-ls:
+# ls:
 1. client receives the command and sends it to the server.
 2. server queries the list of files and stores it in a file.
 3. server then sends the file to the client and deletes it after sending.
 4. client receives the file, displays it and then deletes it.
 
-exit:
+# exit:
 1. client receives the command and sends it to the server.
 2. server exits.
 
-References:
+# References:
 Starter code given with the assignment
-https://www.cs.rutgers.edu/~pxk/417/notes/sockets/udp.html
-https://beej.us/guide/bgnet/html/single/bgnet.html
-https://www.geeksforgeeks.org/socket-programming-cc/
+ * https://www.cs.rutgers.edu/~pxk/417/notes/sockets/udp.html
+ * https://beej.us/guide/bgnet/html/single/bgnet.html
+ * https://www.geeksforgeeks.org/socket-programming-cc/
 
 
  
