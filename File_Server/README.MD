@@ -4,7 +4,7 @@ This folder contains the code for a basic implementation of a UDP based file ser
 ## Compilation
 Compile and run the server
    * make
-   * server [portno]
+   * ./server [portno]
 
 Compile and run the client
    * make
