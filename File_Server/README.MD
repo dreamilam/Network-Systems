@@ -15,7 +15,7 @@ The client will display a set of commands and prompt for input as shown below.<b
    1. get [filename]<br/>
    2. put [filename]<br/>
    3. delete [filename]<br/>
-   4. lsv<br/>
+   4. ls<br/>
    5. exit<br/>
 
 The client then receives the command and sends it to the server. 
