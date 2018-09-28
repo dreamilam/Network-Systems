@@ -26,6 +26,7 @@ For reliable file transfer, a structure which holds the following is used,
    1. packet no
    2. packet size
    3. buffer data
+   
 The sender keeps sending a packet till the receiver receives it and sends the same packet no back.<br/>
 The receiver writes the data only when it receives the expected packet no and packet size.<br/> 
 The receiver sends the updated packet no if the write is successful.<br/>
