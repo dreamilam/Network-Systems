@@ -42,7 +42,7 @@ File transfer ends when the sender sends a packet of packet_size -1.
 1. client receives the command and sends it to the server.
 2. The server keeps waiting for response.
 2. client checks if the file is present and sends the response to the server.
-3. If the file is present, file transder takes place.
+3. If the file is present, file transfer takes place.
 
 ## delete
 1. client receives the command and sends it to the server.
